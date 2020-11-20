@@ -1,0 +1,12 @@
+{
+  "name": "BootstrapNr1",
+  "version": "1.0.0",
+  "main": ".",
+  "repository": "https://github.com/Rasmusb-webutveckling/BootstrapNr1.git",
+  "author": "hackerbuddy229 <rasmusb229@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bootstrap": "^5.0.0",
+    "typescript": "^4.1.2"
+  }
+}
