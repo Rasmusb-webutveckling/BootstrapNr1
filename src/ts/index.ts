@@ -1,1 +1,7 @@
-let test:number = 5;
+import { Modal } from "bootstrap";
+
+let myModal: Modal = ;
+
+function callModal(): void {
+    myModal.show();
+}
