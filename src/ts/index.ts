@@ -1,7 +1,7 @@
 import { Modal } from "bootstrap";
-
-let myModal: Modal = ;
+//id: badModal
+let myModal = document.getElementById("badModal") as unknown;
 
 function callModal(): void {
-    myModal.show();
+    (myModal as Modal).show();
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/app.css">
+
+    <!-- <script src="./../js/index.js" /> -->
     <title>Home</title>
     
 </head>
@@ -17,7 +19,7 @@
     <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <!-- Branding -->  
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#" onclick="callModal">
                 Foo
             </a>
             <button class="navbar-toggler" 
@@ -35,7 +37,7 @@
                 
                 <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Hem<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Hem<span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -49,10 +51,10 @@
                                 aria-expanded="false">Producter</a>
 
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Hoovers</a>
-                                <a class="dropdown-item" href="#">Dyson</a>
-                                <a class="dropdown-item" href="#">Fläktar</a>
-                                <a class="dropdown-item" href="#">Mikrovåg</a>
+                                <a class="dropdown-item" href="#Hoovers">Hoovers</a>
+                                <a class="dropdown-item" href="#Dyson">Dyson</a>
+                                <a class="dropdown-item" href="#Fläktar">Fläktar</a>
+                                <a class="dropdown-item" href="#Mikrovåg">Mikrovåg</a>
                             </div>
                         </li>
 
@@ -96,10 +98,10 @@
 
     <!-- 1row/4colums cards? -->
     <div class="row"">
-        <div id="col-1" class="col-sm card mx-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
-        <div id="col-2" class="col-sm card mx-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
-        <div id="col-3" class="col-sm card mx-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
-        <div id="col-4" class="col-sm card mx-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
+        <div id="col-1" class="col-sm card m-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
+        <div id="col-2" class="col-sm card m-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
+        <div id="col-3" class="col-sm card m-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
+        <div id="col-4" class="col-sm card m-3"><div class="card-body"><h4 class="card-title">test title</h4><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illo fugiat odio distinctio voluptatem eaque, consequatur, repellat mollitia ducimus eos ipsum? Ullam nisi fugiat ipsa amet qui ducimus quisquam dolor?</p></div></div>
     </div>
 
     <!-- #Products -->
@@ -110,7 +112,7 @@
 
             <h3 class="my-4" id="Hoovers">Hoovers</h3>
             <div class="row">
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare1.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Två exempel</h1>
@@ -119,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare2.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">google exempel</h1>
@@ -128,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare3.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Ett damsugar expemplar</h1>
@@ -137,7 +139,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare4.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">alla exempel</h1>
@@ -150,7 +152,7 @@
 
             <h3 class="my-4" id="Dyson">Dyson</h3>
             <div class="row">
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare1.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Två exempel</h1>
@@ -159,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare2.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">google exempel</h1>
@@ -168,7 +170,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare3.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Ett damsugar expemplar</h1>
@@ -177,7 +179,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare4.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">alla exempel</h1>
@@ -190,7 +192,7 @@
 
             <h3 class="my-4" id="Fläktar">Fläktar</h3>
             <div class="row">
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare1.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Två exempel</h1>
@@ -199,7 +201,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare2.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">google exempel</h1>
@@ -208,7 +210,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare3.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Ett damsugar expemplar</h1>
@@ -217,7 +219,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare4.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">alla exempel</h1>
@@ -230,7 +232,7 @@
 
             <h3 class="my-4" id="Mikrovåg">Mikrovåg</h3>
             <div class="row">
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare1.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Två exempel</h1>
@@ -239,7 +241,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare2.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">google exempel</h1>
@@ -248,7 +250,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare3.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">Ett damsugar expemplar</h1>
@@ -257,7 +259,7 @@
                     </div>
                 </div>
 
-                <div class="card col-sm mx-3">
+                <div class="card col-sm m-3">
                     <img src="./../img/damsugare4.jpg" alt="" class="card-img-top py-1">
                     <div class="card-body">
                         <h3 class="card-title">alla exempel</h1>

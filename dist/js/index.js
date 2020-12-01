@@ -1,15 +1,7 @@
-System.register([], function (exports_1, context_1) {
-    "use strict";
-    var myModal;
-    var __moduleName = context_1 && context_1.id;
-    function callModal() {
-        myModal.modal('show');
-    }
-    return {
-        setters: [],
-        execute: function () {
-            myModal = $('#badModal');
-        }
-    };
-});
+"use strict";
+exports.__esModule = true;
+var myModal = document.getElementById("badModal");
+function callModal() {
+    myModal.show();
+}
 //# sourceMappingURL=index.js.map
