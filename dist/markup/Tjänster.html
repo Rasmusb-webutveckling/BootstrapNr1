@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div class="container my-5">
+  <div class="container my-5">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <!-- Branding -->  
             <a class="navbar-brand" href="#" onclick="callModal">
@@ -76,27 +76,73 @@
             
         </nav>
 
+
+        <!-- carousell -->
+
+        <div id="carouselExampleCaptions" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/cleaning.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Rengöring</h5>
+                <p>Vi erbjuder Rengöring...</p>
+                <a href="#Rengöring" class="btn btn-success">Välj</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/cleaning2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tvätt</h5>
+                  <p>Vi erbjuder också tvätt som är likt rengöring men är inte rengöring...</p>
+                  <a href="#Tvätt" class="btn btn-success">Välj</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/storage.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lagring</h5>
+                <p>Vi kan också lagra saker...</p>
+                <a href="#Lagring" class="btn btn-success">Välj</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
         <h4 class="my-4">Tjänster</h4>
         <hr>
 
         <div class="card m-3" id="Rengöring">
             <div class="card-body">
                 <h4 class="card-title">Rengöring</h4>
-                <p class="card-text">test text</p>
+                <p class="card-text">Vi kan rengöra saker...</p>
 		<button class="btn btn-info" data-toggle="modal" data-target="#badModal">Läs mer</button>
             </div>
         </div>
         <div class="card m-3" id="Tvätt">
             <div class="card-body">
                 <h4 class="card-title">Tvätt</h4>
-                <p class="card-text">test text</p>
+                <p class="card-text">TVÄTTNING ÄR INTE SAMMA SAK SOM RENGÖRING. acceptera detta...</p>
 		<button class="btn btn-info" data-toggle="modal" data-target="#badModal">Läs mer</button>
             </div>
         </div>
         <div class="card m-3" id="Lagring">
             <div class="card-body">
                 <h4 class="card-title">Lagring</h4>
-                <p class="card-text">test text</p>
+                <p class="card-text">Vi har också lagrings anläggningar där vi lagrar olika väldigt lagliga saker.</p>
 		<button class="btn btn-info" data-toggle="modal" data-target="#badModal">Läs mer</button>
             </div>
         </div>
@@ -139,7 +185,7 @@
         </div>
     </div>
     <!-- toast -->
-	<div class="toast" id="toast" role="alert" aria-live="assertive" data-delay="2500" aria-atomic="true">
+	<div class="toast" id="toast" role="alert" aria-live="assertive" style="position: fixed; top: 25px; right: 15px;" data-delay="2000" aria-atomic="true">
   		<div class="toast-body">
 			Vi notifierar dig när det finns tillgängligt igen...
   		</div>
